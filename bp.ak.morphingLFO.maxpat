@@ -61,7 +61,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 847.0, 237.0, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "0.5"
 				}
 
 			}
@@ -1666,12 +1666,12 @@
 						"Note" : [ 16.0 ],
 						"Start[3]" : [ 0.0 ],
 						"Sync" : [ 1.0 ],
-						"live.numbox[1]" : [ -4.025903 ]
+						"live.numbox[1]" : [ -3.866887 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u819002655"
+					"varname" : "u555011965"
 				}
 
 			}
@@ -2085,16 +2085,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-89" : [ "Sync", "1", 2 ],
-			"obj-36" : [ "INDEX", "INDEX", 0 ],
-			"obj-110" : [ "Amt[2]", "CV Amt", 0 ],
-			"obj-95" : [ "Note", "Note", 0 ],
-			"obj-21" : [ "Invert", "Invert", 2 ],
-			"obj-87" : [ "Multi", "Multi", 0 ],
-			"obj-69" : [ "Frequency", "FREQ", 0 ],
 			"obj-12" : [ "Mute[1]", "Mute", 0 ],
+			"obj-89" : [ "Sync", "1", 2 ],
+			"obj-95" : [ "Note", "Note", 0 ],
+			"obj-87" : [ "Multi", "Multi", 0 ],
+			"obj-36" : [ "INDEX", "INDEX", 0 ],
+			"obj-11" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-110" : [ "Amt[2]", "CV Amt", 0 ],
 			"obj-80" : [ "Start[3]", "Start", 0 ],
-			"obj-11" : [ "live.numbox[1]", "live.numbox", 0 ]
+			"obj-21" : [ "Invert", "Invert", 2 ],
+			"obj-69" : [ "Frequency", "FREQ", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
@@ -2124,9 +2124,9 @@
 , 			{
 				"name" : "MyM4L",
 				"default" : 				{
-					"bgcolor" : [ 0.094118, 0.117647, 0.137255, 1.0 ],
+					"color" : [ 0.278431, 0.839216, 1.0, 1.0 ],
 					"elementcolor" : [ 0.5, 0.5, 0.5, 0.5 ],
-					"color" : [ 0.278431, 0.839216, 1.0, 1.0 ]
+					"bgcolor" : [ 0.094118, 0.117647, 0.137255, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2135,20 +2135,20 @@
 , 			{
 				"name" : "akihikomatsumoto",
 				"function" : 				{
-					"bgcolor" : [ 0.167832, 0.204392, 0.247516, 1.0 ],
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ]
+					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
+					"bgcolor" : [ 0.167832, 0.204392, 0.247516, 1.0 ]
 				}
 ,
 				"scope~" : 				{
-					"bgcolor" : [ 0.187726, 0.22862, 0.276855, 1.0 ],
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ]
+					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
+					"bgcolor" : [ 0.187726, 0.22862, 0.276855, 1.0 ]
 				}
 ,
 				"default" : 				{
-					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
 					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Helvetica Neue" ],
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ]
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
